@@ -9,7 +9,9 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`contenedor ${styles.barra}`}>
-        <Image src="/img/logo.svg" alt="logo" width={400} height={20} />
+        <Link href="/">
+          <Image src="/img/logo.svg" alt="logo" width={400} height={20} />
+        </Link>
 
         <nav className={styles.navbar}>
           <Link
