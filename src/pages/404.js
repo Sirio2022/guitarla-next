@@ -10,7 +10,7 @@ export default function Pagina404() {
         title="Página no encontrada"
         description="GuitarLA - Página no encontrada error 404"
       >
-        <p className="error">Pagina no encontrada error 404</p>
+        <p className="error">Página no encontrada error 404</p>
         <Link className="error-enlace" href="/">
           Volver al inicio
         </Link>
