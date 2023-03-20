@@ -10,7 +10,7 @@ export default function Nosotros() {
       description="GuitaLA - Acerca de nosotros, venta de guitarras, blog de música y más"
     >
       <main className="contenedor">
-        <h2 className="heading">Sobre Nosotros</h2>
+        <h1 className="heading">Sobre Nosotros</h1>
         <div className={styles.contenido}>
           <Image
             src="/img/nosotros.jpg"
