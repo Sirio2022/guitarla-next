@@ -5,15 +5,20 @@
     align-items: center;
     max-width: 70rem;
     margin: 0 auto;
+    width: auto;
+    height: auto;
 }
+
 .contenido {
     padding: 1rem;
 }
+
 .contenido h3 {
     font-size: 3rem;
     text-transform: uppercase;
     color: var(--primary);
 }
+
 .descripcion {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -21,12 +26,14 @@
     overflow: hidden;
     font-size: 1.8rem;
 }
+
 .precio {
     color: var(--primary);
     font-size: 4rem;
     margin: 0;
     font-weight: 900;
 }
+
 .enlace {
     margin-top: 2rem;
     display: block;
@@ -41,6 +48,7 @@
     transition-property: background-color;
     transition-duration: 300ms;
 }
+
 .enlace:hover {
     background-color: var(--primary);
 }
