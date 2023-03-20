@@ -40,3 +40,27 @@ main {
   color: var(--primary);
   margin: 5rem 0;
 }
+
+.error,
+.error-enlace {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.error::before {
+  content: "⚠️";
+  margin-right: 1rem;
+}
+
+.error-enlace {
+  display: block;
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.error-enlace:hover {
+  text-decoration: underline;
+}
