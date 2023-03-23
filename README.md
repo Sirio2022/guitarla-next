@@ -10,3 +10,5 @@
 <p><strong>NextJs:</strong> 13.2.4</p>
 <p><strong>React:</strong> 18.2.0</p>
 <p><strong>react-dom:</strong> 18.2.0</p>
+
+<h2>Consulta a la API creada con Strapi</h2>
